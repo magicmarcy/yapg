@@ -2,7 +2,7 @@
 
 ## A simple web password generator written in PHP to create secure passwords.
 
-Live-Example here [YAPG](http://quellcode.ddns.com/yapg)[^1].
+Live-Example here [YAPG](http://quellcode.ddns.net/yapg)[^1].
 
 - You can choose between 4 and 32 characters and include numbers and special characters.
 - It is ensured that there are no special characters at the beginning and at the end of a password.
