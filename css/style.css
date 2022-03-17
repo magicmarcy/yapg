@@ -101,7 +101,7 @@ body{
 }
 
 .password-main-value {
-  font-family:'Courier New', Courier, monospace !important;
+  font-family: 'Roboto Mono', monospace !important;
   color: rgb(22, 22, 22);
   font-size: 1.3em;
   font-weight: bold;
