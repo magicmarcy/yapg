@@ -49,7 +49,6 @@ class Options {
    * any special characters at the beginning or end. Furthermore, if there is a 0 and an upper O a new password will be generated.
    */
   function isPasswortOkay($password) {
-
     $result = self::OKAY;
 
     // Check if the password starts with a special character
@@ -59,7 +58,6 @@ class Options {
       foreach ($array as $char) {
          if ($password[0] == $char) {
            return self::NOTOKAY;
-           
           }
        }
     }
@@ -86,8 +84,6 @@ class Options {
         $sizeOfPassword = strlen($password);
         $sizeOfFoundString = strlen(strpbrk($password, self::SONDERZEICHENSTRING));
 
-        var_dump('Size of Password: ' . $sizeOfPassword . ' Size of FoundString: ' . $sizeOfFoundString);
-
         // if the length is 0 no special character was found in the string!
         if ($sizeOfFoundString === self::NOTFOUND) {
           return self::NOTOKAY;
@@ -95,7 +91,6 @@ class Options {
       } 
       
       if ($this->mitZahlen == self::TRUE && $this->anzahlZeichen >= 3) {
-
         $sizeOfPassword = strlen($password);
         $sizeOfFoundString = strlen(strpbrk($password, self::ZAHLENSTRING));
 
