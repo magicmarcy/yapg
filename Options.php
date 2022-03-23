@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Options class - Hier werden alle zur Verfuegung stehenden Optionen definiert
+ * Options class
  */
 class Options {
   var $anzahlZeichen;
